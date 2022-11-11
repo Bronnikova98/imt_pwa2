@@ -1,6 +1,6 @@
-function notificationMTI(mti) {
+function notificationMTI(imt) {
     const options = {
-        body: "Тебя давно не было в калькуляторе МТ, заходи, твой последний ИМТ составил",
+        body: "Тебя давно не было в калькуляторе МТ, заходи, твой последний ИМТ составил" + imt,
         icon: "image/icon-72x72.png"
     }
     new Notification(

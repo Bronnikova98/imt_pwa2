@@ -10,7 +10,7 @@ const staticAsseets = [
     'js/bootstrap.bundle.min.js'
 ]
 //При изменении данных нужно изменить номер версии на другую, например site-static-v4 и т.д
-const staticChaceName = 'site-static-v3'
+const staticChaceName = 'site-static-v4'
 
 //install, load cach
 self.addEventListener('install', async evt=>{

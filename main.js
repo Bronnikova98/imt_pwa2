@@ -1,7 +1,7 @@
 function notificationMTI(imt) {
     const options = {
         body: "Тебя давно не было в калькуляторе МТ, заходи, твой последний ИМТ составил" + imt,
-        icon: "image/icon-72x72.png"
+        // icon: "image/icon-72x72.png"
     }
     console.log('push');
     new Notification(

@@ -5,11 +5,12 @@ const staticAsseets = [
     'image/icon-128x128.png',
     'image/icon-192x192.png',
     'image/03f08527927e3d6161179c3a58458963_xl.jpg',
+    'image/3cbfd1dd909dae37fa3d1b6248c2b520de7a46e9.jpg',
     'css/bootstrap.min.css',
     'js/bootstrap.bundle.min.js'
 ]
-
-const staticChaceName = 'site-static-v1'
+//При изменении данных нужно изменить номер версии на другую, например site-static-v2, site-static-v3 и т.д.
+const staticChaceName = 'site-static-v2'
 
 //install, load cach
 self.addEventListener('install', async evt=>{

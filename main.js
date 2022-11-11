@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', function(){
         let imt = w/(h*h);
         answer_elem.value = imt.toFixed(2)
     })
-})
 
-window.addEventListener('load', function(){
+
+
     if('serviceWorker' in navigator){
         navigator.serviceWorker.register('sw.js')
         .then(reg=>{

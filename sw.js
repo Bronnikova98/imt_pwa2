@@ -2,6 +2,7 @@ const staticAsseets = [
     '.',
     'index.html',
     'main.js',
+    'image/icon-72x72.png',
     'image/icon-128x128.png',
     'image/icon-192x192.png',
     'image/03f08527927e3d6161179c3a58458963_xl.jpg',
@@ -10,7 +11,7 @@ const staticAsseets = [
     'js/bootstrap.bundle.min.js'
 ]
 //При изменении данных нужно изменить номер версии на другую, например site-static-v4 и т.д
-const staticChaceName = 'site-static-v7'
+const staticChaceName = 'site-static-v8'
 
 //install, load cach
 self.addEventListener('install', async evt=>{
